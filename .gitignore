@@ -1,0 +1,3 @@
+all loggs/loggs
+.DS_Store
+!all loggs/sample.log
