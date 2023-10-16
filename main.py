@@ -10,8 +10,11 @@ def multiple(a, b):
 def division(a, b):
   return a / b
 
+def exp(a, b):
+  return a ** b
+
 def operation():
-  op = input('Выберите операцию: +(сложение), -(вычитание), *(умножение), /(деление)')
+  op = input('Выберите операцию: +(сложение), -(вычитание), *(умножение), /(деление), **(возведение в степень)')
   return op
 
 def calculator():
@@ -26,7 +29,8 @@ def calculator():
     print(multiple(first_number, second_number))
   elif op == '/':
     print(division(first_number, second_number))
+  elif op == '**':
+    print(exp(first_number, second_number))
   else:
     print('Эту операцию калькулятор не поддерживает')
-
 
